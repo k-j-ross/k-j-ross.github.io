@@ -1,0 +1,31 @@
+div{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    margin-left: 180px;
+  }
+  h1,h2{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #03966077; /* Green */
+    float: left;
+    width: 25%;
+    border-radius: 5%;
+    height: 20pt;
+  }
+
+  .button {
+    transition-duration: 0.4s;
+  }
+  
+  .button1:hover {
+    background-color: #04aa6d; /* Green */
+    color: white;
+  }
