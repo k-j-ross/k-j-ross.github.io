@@ -14,7 +14,7 @@ div{
   .button1 {
     background-color: white;
     color: black;
-    border: 2px solid #03966077; /* Green */
+    border: 2px solid #64656577; /* Green Grey*/
     float: left;
     width: 25%;
     border-radius: 5%;
@@ -27,6 +27,6 @@ div{
   }
   
   .button1:hover {
-    background-color: #04aa6d; /* Green */
+    background-color: #64656577; /* Green */
     color: white;
   }
