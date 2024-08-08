@@ -16,9 +16,23 @@ div{
     color: black;
     border: 2px solid #64656577; /* Green Grey*/
     float: left;
-    width: 25%;
+    width: 100%;
     border-radius: 5%;
     height: 40pt;
+    align-content: center;
+    justify-content: center;
+
+  }
+  .button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #64656577; /* Green Grey*/
+    float: left;
+    width: 100%;
+    border-radius: 5%;
+    height: 40pt;
+    align-content: center;
+    justify-content: center;
 
   }
 
@@ -30,3 +44,56 @@ div{
     background-color: #64656577; /* Green */
     color: white;
   }
+  .button2:hover {
+    background-color: #64656577; /* Green */
+    color: white;
+  }
+  
+   /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 45%;
+  padding: 5px;
+}
+
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Set for three things in a row */
+
+.column2 {
+  float: left;
+  width: 28%;
+  padding: 5px;
+}
+
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+/* Set for four things in a row */
+
+.column4 {
+  float: left;
+  width: 21%;
+  padding: 5px;
+}
+
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
