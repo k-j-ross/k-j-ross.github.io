@@ -1,8 +1,8 @@
 div{
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
   h1,h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -52,8 +52,8 @@ div{
    /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 45%;
-  padding: 5px;
+  width: 40%;
+  padding: 4%;
 }
 
 
@@ -69,7 +69,7 @@ div{
 .column2 {
   float: left;
   width: 28%;
-  padding: 5px;
+  padding: 4%;
 }
 
 
@@ -85,11 +85,9 @@ div{
 
 .column4 {
   float: left;
-  width: 21%;
-  padding: 5px;
+  width: 20%;
+  padding: 2px;
 }
-
-
 
 /* Clear floats after image containers */
 .row::after {
